@@ -1,0 +1,50 @@
+.container-fluid{
+  position: absolute;
+  top:0px;
+  right:0px !important;
+  left:0px !important;
+  bottom:0px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-sm-3{
+  background: #f0f0f0;
+  border: 1px solid black;
+  height:2.7rem;
+  cursor: pointer;
+  box-shadow: none !important;
+}
+
+.form-control{
+  width:100% ;
+  border-radius: 0px;
+  border: 1px solid black !important;
+  box-shadow: none !important;
+
+}
+
+.light{
+  background: #f0f0f0;
+  color: black
+}
+
+.dark{
+  background: #666;
+  color: white
+}
+
+.toggle{
+  position: absolute;
+  right:3% ;
+  top:7rem;
+  margin-bottom: 20px !important;
+  padding: 7px;
+  border: 1px solid black !important;
+  cursor: pointer;
+
+}
