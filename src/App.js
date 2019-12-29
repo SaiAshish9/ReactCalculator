@@ -111,7 +111,7 @@ switch(e.target.name){
          />
 
 
-       <div className="row" style={{width:'60%'}}>
+       <div className="row" style={{minWidth:'60%',width:'60%'}}>
 
          {
          buttons.map((value,i)=>(
